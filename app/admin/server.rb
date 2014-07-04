@@ -1,4 +1,5 @@
 ActiveAdmin.register Server do
+  permit_params :name, :os
 
   
   # See permitted parameters documentation:
